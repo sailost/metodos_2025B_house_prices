@@ -1,5 +1,6 @@
 # metodos_2025B_house_prices
-Proyecto Métodos Numericos:  predicción de precios de viviendas usando regresión lineal
+Proyecto Métodos Numericos:  predicción de precios de viviendas
+
 
 En este apartado se mostrara el avance técnico del proyecto, cuyo objetivo esla implementación del modelo hedónico para la predicción del precio de viviendas usando Métodos de Mínimos Cuadrados 
 
