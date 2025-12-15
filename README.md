@@ -18,4 +18,14 @@ Donde "A" es la matriz de caracteristicas (Variables que ya acordamos en el avan
 
 Para la resolucción del sistema se usara metódos como eliminación Gaussiana y Gauss-jordan 
 
-Algunos de los criterios de parada seran la convergencia del error y el numero máximo de iteraciones.
+Algunos de los criterios de parada seran la convergencia del error y el numero máximo de iteraciones, sin embargo al ver esta forma tentativa parece complicar innecesariamente podria descartarse
+
+
+
+Otra opcion de resolucion que estamos analizando es la siguiente:
+
+El modelo se planteara de forma matricial, donde se relaciona el precio de venta de las viviendas con las variables seleccionadas mediante un modelo lineal.
+
+Se formula a partir de la minimización del error cuadrático entre los valores reales y los valores estimados del precio de las viviendas, lo que conduce al sistema normal de ecuaciones asociado al Método de Mínimos Cuadrados. En este planteamiento, la matriz A representa las variables seleccionadas, el vector b corresponde a los precios reales (SalePrice) y el vector x contiendra los coeficientes del modelo
+
+Para la resolución del sistema resultante, se utilizaran tecnicas de álgebra lineal, apoyasdose en herramientas computacionales que permitan obtener los coeficientes de manera directa, sin recurrir a metodos iterativos ni procedimientos mas avanzados 
